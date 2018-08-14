@@ -1,3 +1,8 @@
+/*//////////////////
+//  Part - A      //
+//  Program - 2   //
+//////////////////*/
+
 #include <iostream>
 using namespace std;
 
