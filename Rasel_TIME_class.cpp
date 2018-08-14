@@ -1,6 +1,6 @@
 /*//////////////////
 //  Part - A      //
-//  Program - 5   //
+//  Program - 6   //
 //////////////////*/
 
 #include <iostream>
