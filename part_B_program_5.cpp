@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <cmath>
+using namespace std;
 
 class polar {
     double radius;
