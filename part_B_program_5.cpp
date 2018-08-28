@@ -1,6 +1,10 @@
+/*//////////////////
+//  Part - B      //
+//  Program - 5   //
+//////////////////*/
+
 #include <iostream>
 #include <cmath>
-#include <cstdio>
 
 class polar {
     double radius;
@@ -22,7 +26,7 @@ public:
     }
 
     void display() {
-      printf("Radius = %.2f, Angle = %.2f\n",radius,angle);
+      cout << "Radius = "<<radius<<" , Angle = "<<angle<<endl;
     }
 
     polar operator + (polar o2) {
@@ -40,11 +44,11 @@ int main() {
 
      o3=o1+o2;
 
-     printf("object 1: ");
+     cout << "object 1: ";
      o1.display();
-     printf("object 2: ");
+     cout << "object 2: ";
      o2.display();
-     printf("object 3: ");
+     cout << "object 3: ";
      o3.display();
 
      return 0;
