@@ -27,5 +27,7 @@ int main(){
     for(int i=0;i<5;i++){
         outf<<marks[i]<< " ";
     }
+    inf.close();
+    outf.close();
     return 0;
 }

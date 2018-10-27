@@ -14,5 +14,7 @@ int main(){
     while(fin>>s){
         fout<<s;
     }
+    fin.close();
+    fout.close();
     return 0;
 }
